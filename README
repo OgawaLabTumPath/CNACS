@@ -5,3 +5,17 @@ Set up of CNACS
 (2) Put hg19 reference seqnence (fasta and fai format) under "cnacs/ref/hg19/".
 
 (3) Read manual, "cnacs/info/CNACS_Manual_072919.docx"
+
+
+Dependency
+
+
+
+
+
+
+Credit
+The original version of CNACS was developed by Yusuke Shiozawa.
+The revised version of CNACS was managed by Yusuke Shiozawa, Yasuhito Nannya, and Ryunosuke Saiki.
+
+
