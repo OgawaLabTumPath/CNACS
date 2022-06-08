@@ -1,0 +1,19 @@
+all: SNPs of tier 1-8, SNPs in exons, and known suitable SNPs
+
+all_tier: SNPs of tier 1-8
+
+tier1: MAF > 40, %hetero > 45, no known copy number polymorphisms, removing repeat regions, removing regions with indel polymorphisms
+
+tier2: MAF > 40, %hetero > 45, no known copy number polymorphisms, regions with human chained self alignments score < 50, removing regions with indel polymorphisms
+
+tier3: MAF > 40, %hetero 40-45, no known copy number polymorphisms, removing repeat regions, removing regions with indel polymorphisms
+
+tier4: MAF > 40, %hetero 40-45, no known copy number polymorphisms, regions with human chained self alignments score < 50, removing regions with indel polymorphisms
+
+tier5: MAF > 30, no known copy number polymorphisms, removing repeat regions, removing regions with indel polymorphisms
+
+tier6: MAF > 30, no known copy number polymorphisms, regions with human chained self alignments score < 50, removing regions with indel polymorphisms
+
+tier7: MAF > 35, removing repeat regions, removing regions with indel polymorphisms, sometimes difficult to set probes for these SNPs
+
+tier8: MAF > 35, regions with human chained self alignments score < 50, removing regions with indel polymorphisms, sometimes difficult to set probes for these SNPs

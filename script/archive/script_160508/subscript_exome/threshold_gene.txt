@@ -1,0 +1,3 @@
+Depth_mean_lower	0.15
+Depth_mean_upper	3
+Depth_coefvar_upper	0.1

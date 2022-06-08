@@ -1,0 +1,7 @@
+Set up of CNACS
+
+(1) Edit config file, "cnacs/conf/hg19.env".
+
+(2) Put hg19 reference seqnence (fasta and fai format) under "cnacs/ref/hg19/".
+
+(3) Read manual, "cnacs/info/CNACS_Manual_072919.docx"
