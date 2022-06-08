@@ -1,6 +1,7 @@
 Set up of CNACS
 - Edit config file, "cnacs/conf/hg19.env".
 - Put hg19 reference seqnence (fasta and fai format) under "cnacs/ref/hg19/".
+- Unzip "db/repli_timing/hg19.interval.bed.zip"
 - For further detailes, read manual, "cnacs/info/CNACS_Manual_072919.docx"
 
 
